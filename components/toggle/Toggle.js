@@ -24,7 +24,7 @@ const Toggle = ({ onToggle, color, size }) => {
     return isToggled ? 'bg-indigo-500' : 'bg-gray-400';
   };
 
-  // Use 'sm' as default if size is not provided or is invalid
+  // Use 'sm' as default size
   const sizeClass = sizeMap[size] || sizeMap.sm;
 
   return (
