@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .animate-bounce-subtle {
+      animation: bounce-subtle 1s infinite;
+    }
+  
+    @keyframes bounce-subtle {
+      0%, 100% { transform: translateY(-5%); }
+      50% { transform: translateY(0); }
+    }
+  }
